@@ -1,0 +1,55 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+#wrapper {
+	margin:10px 10px;
+	
+	box-shadow: 2px 2px #OOO;
+	min-height: 400px;
+}
+#container{
+	border:1px solid #CCC;
+	margin: 10px 0px;
+	min-height:400px;
+}
+#summary{
+	float: right;
+	margin:35px 0px;
+}
+.clearfix{
+	clear: both
+}
+#sumDet{
+	border-bottom: 2px solid;
+	
+}
+.removeBtn{
+	background-image: url('img/images.png')
+}
+.products{
+    margin: 10px 30px;
+    border: 1px solid #CCC;
+    padding: 10px 10px;
+    height: 350px;
+    box-shadow:  3px 1px 4px #584A4A;
+}
+
+#items table tr th{text-align: center;}
+.btnDet{display: none;}
+.show{display: block;}
+.products h6, .products h5{text-align: center;}
+.addBtn{
+	 width: 77%;
+    z-index: 1;
+    position: relative;
+    left: 22px;
+}
+.btnDet{
+	border: 1px solid;
+    position: relative;
+    bottom: 26px;
+    left: 0px;
+}
+#btnPlus{float:right};
